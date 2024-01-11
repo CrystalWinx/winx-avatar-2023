@@ -1,4 +1,4 @@
-# Winx Avatar
+# Winx Club Web Game - Winx Avatar
 This Repo is a replica of https://winxavatar.com and can be used to host your own instance of the Game. All you need is a webserver with PHP installed.
 
 # How to use:
