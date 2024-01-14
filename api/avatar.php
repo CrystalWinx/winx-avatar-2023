@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if($_SESSION['token'] == $_POST['token'] && $_FILES['blob']['size'] <= 200000 && $_SESSION['uploads'] <=50) {
+if($_SESSION['token'] == $_POST['token'] && $_FILES['blob']['size'] <= 1000000 && $_SESSION['uploads'] <=50) {
     $target_file = "../userImages/". $_POST['uuid'] .".jpg";
     $_SESSION['uploads'] = $_SESSION['uploads'] + 1;
     $_SESSION['token'] = "";
